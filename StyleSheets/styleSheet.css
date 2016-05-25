@@ -1,0 +1,21 @@
+body {
+  overflow: hidden;
+}
+
+h2 {
+  color: #904040;
+}
+
+p {
+  color: #ff4400;
+  font-size: 3em;
+}
+
+img {
+  transform: translate(0, 150vh) scale(5);
+  transition: transform 3s;
+}
+
+.clicked {
+  transform: translate(200px, 50vh) scale(5) rotate(15deg);
+}
